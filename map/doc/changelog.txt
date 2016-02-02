@@ -1,0 +1,13 @@
+Changes for v2.0.3:
+*Fixed summons bug which could create copies of lords
+
+Changes for v2.0.2:
+*Streamlined the XML drastically for much faster load times
+*Totally new combat system: Lords' strengths are now represented by "Soldier" units which follow lords' movements on the board; garrisons are also made up of Soldier units
+*All assets now available for purchase; did away with the Lords Tree and random unit availability
+*Income is now based on holdings: 1 PU for villages, 2 for castles, 3 for towns, 5 for cities
+*Royal summons happen for each player at the end of his turn separately
+*Relics are somewhat-less-randomly placed; one is always in Torrenthall, one in Thunnerbarrow
+*Plague is now represented by plague units on the board; lords with no druids have a 1:4 chance of death if in the same land zone (or sites w/in land zone) as a plague unit and those with druids have a 1:10 chance
+*Plague spreads organically, maxing out usually at between 15 and 25 infected zones per turn
+*Email play is now possible
